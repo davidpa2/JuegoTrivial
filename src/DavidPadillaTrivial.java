@@ -23,6 +23,7 @@ public class DavidPadillaTrivial {
 		double score = 0;
 		
 		System.out.println("Esto es Trivial, el juego en el que se te hacen preguntas y debes responderlas para conseguir puntos.");
+		System.out.println("Recuerda que si aciertas se te suma un punto y si fallas se resta 0.5.");
 		System.out.println("El tema de las preguntas es...      ¡PERSONAJES DE VIDEOJUEGOS!");
 		
 		do {	
@@ -35,7 +36,7 @@ public class DavidPadillaTrivial {
 		}while (entrada != 1);
 
 		System.out.println("Comenzamos:");
-		System.out.println("_______________________________________________________________");
+		System.out.println("____________________________________________________________________________________________________________");
 		
 		//Primera pregunta
 		System.out.println("Pregunta 1: Lleva bigote y va saltando por su mundo de champiñones...");
@@ -48,15 +49,15 @@ public class DavidPadillaTrivial {
 		if (respuesta1 == 2) {
 			System.out.println(" ");
 			System.out.println("¡Enhorabuena has acertado!");
-			score =+ 1;
+			score = score + 1;
 		}else {
 			System.out.println(" ");
 			System.out.println("Vaya, lo siento has fallado...");
-			score =- 0.5;
+			score = score - 0.5;
 		}
 		
 		//Segunda pregunta
-		System.out.println("_______________________________________________________________");		
+		System.out.println("____________________________________________________________________________________________________________");		
 		System.out.println("Pregunta 2: Él y su banda de forajidos cabalgan todo el oeste.");
 		System.out.println("1) Geralt de Rivia");
 		System.out.println("2) Nathan Drake");
@@ -67,15 +68,15 @@ public class DavidPadillaTrivial {
 		if (respuesta2 == 3) {
 			System.out.println(" ");
 			System.out.println("¡Enhorabuena has acertado!");
-			score =+ 1;
+			score = score + 1;
 		}else {
 			System.out.println(" ");
 			System.out.println("Vaya, lo siento has fallado...");
-			score =- 0.5;
+			score = score - 0.5;
 		}
 		
 		//Tercera pregunta
-		System.out.println("_______________________________________________________________");		
+		System.out.println("____________________________________________________________________________________________________________");		
 		System.out.println("Pregunta 3: Un espadachín que vive en la ciudad de Hyrule.");
 		System.out.println("1) Bowser");
 		System.out.println("2) Link");
@@ -86,15 +87,15 @@ public class DavidPadillaTrivial {
 		if (respuesta3 == 2) {
 			System.out.println(" ");
 			System.out.println("¡Enhorabuena has acertado!");
-			score =+ 1;
+			score = score + 1;
 		}else {
 			System.out.println(" ");
 			System.out.println("Vaya, lo siento has fallado...");
-			score =- 0.5;
+			score = score - 0.5;
 		}
 		
 		//Cuarta pregunta
-		System.out.println("_______________________________________________________________");		
+		System.out.println("____________________________________________________________________________________________________________");		
 		System.out.println("Pregunta 4: Es un brujo que emprende un largo viaje a través de Los reinos del norte..");
 		System.out.println("1) John Marston");
 		System.out.println("2) Solid Snake");
@@ -105,15 +106,15 @@ public class DavidPadillaTrivial {
 		if (respuesta4 == 3) {
 			System.out.println(" ");
 			System.out.println("¡Enhorabuena has acertado!");
-			score =+ 1;
+			score = score + 1;
 		}else {
 			System.out.println(" ");
 			System.out.println("Vaya, lo siento has fallado...");
-			score =- 0.5;
+			score = score - 0.5;
 		}
 		
 		//Quinta pregunta
-		System.out.println("_______________________________________________________________");		
+		System.out.println("____________________________________________________________________________________________________________");		
 		System.out.println("Pregunta 5: Huye con su compañera de los infectados con el fin de sobrevivir.");
 		System.out.println("1) Joel Miller");
 		System.out.println("2) Captain Falcon");
@@ -124,15 +125,15 @@ public class DavidPadillaTrivial {
 		if (respuesta5 == 1) {
 			System.out.println(" ");
 			System.out.println("¡Enhorabuena has acertado!");
-			score =+ 1;
+			score = score + 1;
 		}else {
 			System.out.println(" ");
 			System.out.println("Vaya, lo siento has fallado...");
-			score =- 0.5;
+			score = score - 0.5;
 		}
 		
 		//Sexta pregunta
-		System.out.println("_______________________________________________________________");		
+		System.out.println("____________________________________________________________________________________________________________");		
 		System.out.println("Pregunta 6: Viaja por las islas de una selva tropical luchando contra animales mutantes.");
 		System.out.println("1) Donkey Kong");
 		System.out.println("2) Sadie Adler");
@@ -143,15 +144,15 @@ public class DavidPadillaTrivial {
 		if (respuesta6 == 3) {
 			System.out.println(" ");
 			System.out.println("¡Enhorabuena has acertado!");
-			score =+ 1;
+			score = score + 1;
 		}else {
 			System.out.println(" ");
 			System.out.println("Vaya, lo siento has fallado...");
-			score =- 0.5;
+			score = score - 0.5;
 		}		
 	
 		//Séptima pregunta
-		System.out.println("_______________________________________________________________");		
+		System.out.println("____________________________________________________________________________________________________________");		
 		System.out.println("Pregunta 7: Es rosa y tiene forma de bola, puede absolver objetos o enemigos.");
 		System.out.println("1) Boo");
 		System.out.println("2) Kirby");
@@ -162,16 +163,16 @@ public class DavidPadillaTrivial {
 		if (respuesta7 == 2) {
 			System.out.println(" ");
 			System.out.println("¡Enhorabuena has acertado!");
-			score =+ 1;
+			score = score + 1;
 		}else {
 			System.out.println(" ");
 			System.out.println("Vaya, lo siento has fallado...");
-			score =- 0.5;
+			score = score - 0.5;
 		}			
 	
 		//Octava pregunta
-		System.out.println("_______________________________________________________________");		
-		System.out.println("Pregunta 8: Exsoldado de la Federación Galáctica que se convirtió en una cazarrecompensas.");
+		System.out.println("____________________________________________________________________________________________________________");		
+		System.out.println("Pregunta 8: Exsoldado de la Federación Galáctica que se convirtió en un cazarrecompensas.");
 		System.out.println("1) Samus Aran");
 		System.out.println("2) Mega Man");
 		System.out.println("3) Captain Falcon");
@@ -181,15 +182,15 @@ public class DavidPadillaTrivial {
 		if (respuesta8 == 1) {
 			System.out.println(" ");
 			System.out.println("¡Enhorabuena has acertado!");
-			score =+ 1;
+			score = score + 1;
 		}else {
 			System.out.println(" ");
 			System.out.println("Vaya, lo siento has fallado...");
-			score =- 0.5;
+			score = score - 0.5;
 		}	
 	
 		//Novena pregunta
-		System.out.println("_______________________________________________________________");		
+		System.out.println("____________________________________________________________________________________________________________");		
 		System.out.println("Pregunta 9: Participa en una guerra interestelar entre la humanidad y una alianza teocrática de alienígenas.");
 		System.out.println("1) Cloud Strife");
 		System.out.println("2) Yennefer de Vengerberg");
@@ -200,15 +201,15 @@ public class DavidPadillaTrivial {
 		if (respuesta9 == 3) {
 			System.out.println(" ");
 			System.out.println("¡Enhorabuena has acertado!");
-			score =+ 1;
+			score = score + 1;
 		}else {
 			System.out.println(" ");
 			System.out.println("Vaya, lo siento has fallado...");
-			score =- 0.5;
+			score = score - 0.5;
 		}		
 	
 		//Décima pregunta
-		System.out.println("_______________________________________________________________");		
+		System.out.println("____________________________________________________________________________________________________________");		
 		System.out.println("Pregunta 10: Un semidios espartano que se enfrenta contra Dioses y otras critaturas.");
 		System.out.println("1) Pit");
 		System.out.println("2) Kratos");
@@ -216,15 +217,50 @@ public class DavidPadillaTrivial {
 		str = JOptionPane.showInputDialog("Escribe la respuesta correcta:");
 		int respuesta10 = Integer.parseInt(str);
 		
-		if (respuesta10 == 3) {
+		if (respuesta10 == 2) {
 			System.out.println(" ");
 			System.out.println("¡Enhorabuena has acertado!");
-			score =+ 1;
+			score = score + 1;
 		}else {
 			System.out.println(" ");
 			System.out.println("Vaya, lo siento has fallado...");
-			score =- 0.5;
+			score = score - 0.5;
 		}			
+	
+		System.out.println("____________________________________________________________________________________________________________");
+		System.out.println("¡Has consegido una puntuación de " + score + "!");
+		
+		
+		if (score <= 0) {
+			System.out.println("Machoooo no tienes ni ideaaa... Anda prueba otra vez");
+		}else {
+			
+			if (score <= 3) {
+				System.out.println("Veo que tienes muy poca cultura de videojuegos... Ve y te echas una play...");
+			}else {
+				
+				if (score <= 4) {
+					System.out.println("Uuuuu tienes poca idea, pero algo sabes.");
+				}else {
+					
+					if (score <= 6) {
+						System.out.println("Bueno, has aprobado pero muy justito, deberías jugar más.");
+					}else {
+						
+						if (score <= 8) {
+							System.out.println("Se nota que te has echado más de una play. MUY BIEN.");
+						}else {
+							
+							if (score <= 10) {
+								System.out.println("Has triunfado chaval ¡ENHORABUENA!");
+							}
+						}
+					}
+				}
+			}
+		}
+		
+			
 	}
 
 }
