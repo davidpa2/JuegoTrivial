@@ -178,7 +178,7 @@ public class DavidPadillaTrivial {
 		str = JOptionPane.showInputDialog("Escribe la respuesta correcta:");
 		int respuesta8 = Integer.parseInt(str);
 		
-		if (respuesta8 == 2) {
+		if (respuesta8 == 1) {
 			System.out.println(" ");
 			System.out.println("¡Enhorabuena has acertado!");
 			score =+ 1;
@@ -187,6 +187,25 @@ public class DavidPadillaTrivial {
 			System.out.println("Vaya, lo siento has fallado...");
 			score =- 0.5;
 		}	
+	
+		//Novena pregunta
+		System.out.println("_______________________________________________________________");		
+		System.out.println("Pregunta 9: Participa en una guerra interestelar entre la humanidad y una alianza teocrática de alienígenas.");
+		System.out.println("1) Cloud Strife");
+		System.out.println("2) Yennefer de Vengerberg");
+		System.out.println("3) Master Chief");
+		str = JOptionPane.showInputDialog("Escribe la respuesta correcta:");
+		int respuesta9 = Integer.parseInt(str);
+		
+		if (respuesta9 == 3) {
+			System.out.println(" ");
+			System.out.println("¡Enhorabuena has acertado!");
+			score =+ 1;
+		}else {
+			System.out.println(" ");
+			System.out.println("Vaya, lo siento has fallado...");
+			score =- 0.5;
+		}		
 	}
 
 }
