@@ -38,7 +38,7 @@ public class DavidPadillaTrivial {
 		System.out.println("_______________________________________________________________");
 		
 		//Primera pregunta
-		System.out.println("Pregunta 2: Lleva bigote y va saltando por su mundo de champiñones...");
+		System.out.println("Pregunta 1: Lleva bigote y va saltando por su mundo de champiñones...");
 		System.out.println("1) Doctor Eggman");
 		System.out.println("2) Mario");
 		System.out.println("3) Wario");
@@ -131,6 +131,24 @@ public class DavidPadillaTrivial {
 			score =- 0.5;
 		}
 		
+		//Sexta pregunta
+		System.out.println("_______________________________________________________________");		
+		System.out.println("Pregunta 6: Viaja por las islas de una selva tropical luchando contra animales mutantes.");
+		System.out.println("1) Donkey Kong");
+		System.out.println("2) Saie Adler");
+		System.out.println("3) Crash Bandicoot");
+		str = JOptionPane.showInputDialog("Escribe la respuesta correcta:");
+		int respuesta6 = Integer.parseInt(str);
+		
+		if (respuesta5 == 3) {
+			System.out.println(" ");
+			System.out.println("¡Enhorabuena has acertado!");
+			score =+ 1;
+		}else {
+			System.out.println(" ");
+			System.out.println("Vaya, lo siento has fallado...");
+			score =- 0.5;
+		}		
 	}
 
 }
