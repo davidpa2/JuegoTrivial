@@ -140,7 +140,7 @@ public class DavidPadillaTrivial {
 		str = JOptionPane.showInputDialog("Escribe la respuesta correcta:");
 		int respuesta6 = Integer.parseInt(str);
 		
-		if (respuesta5 == 3) {
+		if (respuesta6 == 3) {
 			System.out.println(" ");
 			System.out.println("¡Enhorabuena has acertado!");
 			score =+ 1;
@@ -149,6 +149,25 @@ public class DavidPadillaTrivial {
 			System.out.println("Vaya, lo siento has fallado...");
 			score =- 0.5;
 		}		
+	
+		//Séptima pregunta
+		System.out.println("_______________________________________________________________");		
+		System.out.println("Pregunta 7: Es rosa y tiene forma de bola, puede absolver objetos o enemigos.");
+		System.out.println("1) Boo");
+		System.out.println("2) Kirby");
+		System.out.println("3) Jigglypuff");
+		str = JOptionPane.showInputDialog("Escribe la respuesta correcta:");
+		int respuesta7 = Integer.parseInt(str);
+		
+		if (respuesta7 == 2) {
+			System.out.println(" ");
+			System.out.println("¡Enhorabuena has acertado!");
+			score =+ 1;
+		}else {
+			System.out.println(" ");
+			System.out.println("Vaya, lo siento has fallado...");
+			score =- 0.5;
+		}			
 	}
 
 }
