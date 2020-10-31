@@ -135,7 +135,7 @@ public class DavidPadillaTrivial {
 		System.out.println("_______________________________________________________________");		
 		System.out.println("Pregunta 6: Viaja por las islas de una selva tropical luchando contra animales mutantes.");
 		System.out.println("1) Donkey Kong");
-		System.out.println("2) Saie Adler");
+		System.out.println("2) Sadie Adler");
 		System.out.println("3) Crash Bandicoot");
 		str = JOptionPane.showInputDialog("Escribe la respuesta correcta:");
 		int respuesta6 = Integer.parseInt(str);
@@ -168,6 +168,25 @@ public class DavidPadillaTrivial {
 			System.out.println("Vaya, lo siento has fallado...");
 			score =- 0.5;
 		}			
+	
+		//Octava pregunta
+		System.out.println("_______________________________________________________________");		
+		System.out.println("Pregunta 8: Exsoldado de la Federación Galáctica que se convirtió en una cazarrecompensas.");
+		System.out.println("1) Samus Aran");
+		System.out.println("2) Mega Man");
+		System.out.println("3) Captain Falcon");
+		str = JOptionPane.showInputDialog("Escribe la respuesta correcta:");
+		int respuesta8 = Integer.parseInt(str);
+		
+		if (respuesta8 == 2) {
+			System.out.println(" ");
+			System.out.println("¡Enhorabuena has acertado!");
+			score =+ 1;
+		}else {
+			System.out.println(" ");
+			System.out.println("Vaya, lo siento has fallado...");
+			score =- 0.5;
+		}	
 	}
 
 }
