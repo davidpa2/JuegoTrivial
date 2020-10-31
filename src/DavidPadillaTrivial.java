@@ -112,6 +112,25 @@ public class DavidPadillaTrivial {
 			score =- 0.5;
 		}
 		
+		//Quinta pregunta
+		System.out.println("_______________________________________________________________");		
+		System.out.println("Pregunta 5: Huye con su compañera de los infectados con el fin de sobrevivir.");
+		System.out.println("1) Joel Miller");
+		System.out.println("2) Captain Falcon");
+		System.out.println("3) Nathan Drake");
+		str = JOptionPane.showInputDialog("Escribe la respuesta correcta:");
+		int respuesta5 = Integer.parseInt(str);
+		
+		if (respuesta5 == 1) {
+			System.out.println(" ");
+			System.out.println("¡Enhorabuena has acertado!");
+			score =+ 1;
+		}else {
+			System.out.println(" ");
+			System.out.println("Vaya, lo siento has fallado...");
+			score =- 0.5;
+		}
+		
 	}
 
 }
