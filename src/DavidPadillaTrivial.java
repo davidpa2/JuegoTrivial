@@ -35,8 +35,9 @@ public class DavidPadillaTrivial {
 		}while (entrada != 1);
 
 		System.out.println("Comenzamos:");
-		System.out.println(" ");
+		System.out.println("_______________________________________________________________");
 		
+		//Primera pregunta
 		System.out.println("Lleva bigote y va saltando por su mundo de champiñones...");
 		System.out.println("1) Doctor Eggman");
 		System.out.println("2) Mario");
@@ -45,6 +46,25 @@ public class DavidPadillaTrivial {
 		int respuesta1 = Integer.parseInt(str);
 		
 		if (respuesta1 == 2) {
+			System.out.println(" ");
+			System.out.println("¡Enhorabuena has acertado!");
+			score =+ 1;
+		}else {
+			System.out.println(" ");
+			System.out.println("Vaya, lo siento has fallado...");
+			score =- 0.5;
+		}
+		
+		//Segunda pregunta
+		System.out.println("_______________________________________________________________");		
+		System.out.println("Él y su banda de forajidos cabalgan todo el oeste.");
+		System.out.println("1) Geralt de Rivia");
+		System.out.println("2) Nathan Drake");
+		System.out.println("3) Arthur Morgan");
+		str = JOptionPane.showInputDialog("Escribe la respuesta correcta:");
+		int respuesta2 = Integer.parseInt(str);
+		
+		if (respuesta2 == 3) {
 			System.out.println(" ");
 			System.out.println("¡Enhorabuena has acertado!");
 			score =+ 1;
