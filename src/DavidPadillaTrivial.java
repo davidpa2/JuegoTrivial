@@ -38,7 +38,7 @@ public class DavidPadillaTrivial {
 		System.out.println("_______________________________________________________________");
 		
 		//Primera pregunta
-		System.out.println("Lleva bigote y va saltando por su mundo de champiñones...");
+		System.out.println("Pregunta 2: Lleva bigote y va saltando por su mundo de champiñones...");
 		System.out.println("1) Doctor Eggman");
 		System.out.println("2) Mario");
 		System.out.println("3) Wario");
@@ -57,7 +57,7 @@ public class DavidPadillaTrivial {
 		
 		//Segunda pregunta
 		System.out.println("_______________________________________________________________");		
-		System.out.println("Él y su banda de forajidos cabalgan todo el oeste.");
+		System.out.println("Pregunta 2: Él y su banda de forajidos cabalgan todo el oeste.");
 		System.out.println("1) Geralt de Rivia");
 		System.out.println("2) Nathan Drake");
 		System.out.println("3) Arthur Morgan");
@@ -74,8 +74,9 @@ public class DavidPadillaTrivial {
 			score =- 0.5;
 		}
 		
+		//Tercera pregunta
 		System.out.println("_______________________________________________________________");		
-		System.out.println("Un espadachín que vive en la ciudad de Hyrule.");
+		System.out.println("Pregunta 3: Un espadachín que vive en la ciudad de Hyrule.");
 		System.out.println("1) Bowser");
 		System.out.println("2) Link");
 		System.out.println("3) Kirby");
@@ -83,6 +84,25 @@ public class DavidPadillaTrivial {
 		int respuesta3 = Integer.parseInt(str);
 		
 		if (respuesta3 == 2) {
+			System.out.println(" ");
+			System.out.println("¡Enhorabuena has acertado!");
+			score =+ 1;
+		}else {
+			System.out.println(" ");
+			System.out.println("Vaya, lo siento has fallado...");
+			score =- 0.5;
+		}
+		
+		//Cuarta pregunta
+		System.out.println("_______________________________________________________________");		
+		System.out.println("Pregunta 4: Es un brujo que emprende un largo viaje a través de Los reinos del norte..");
+		System.out.println("1) John Marston");
+		System.out.println("2) Solid Snake");
+		System.out.println("3) Geralt de Rivia");
+		str = JOptionPane.showInputDialog("Escribe la respuesta correcta:");
+		int respuesta4 = Integer.parseInt(str);
+		
+		if (respuesta4 == 3) {
 			System.out.println(" ");
 			System.out.println("¡Enhorabuena has acertado!");
 			score =+ 1;
