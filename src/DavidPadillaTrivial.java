@@ -206,6 +206,25 @@ public class DavidPadillaTrivial {
 			System.out.println("Vaya, lo siento has fallado...");
 			score =- 0.5;
 		}		
+	
+		//Décima pregunta
+		System.out.println("_______________________________________________________________");		
+		System.out.println("Pregunta 10: Un semidios espartano que se enfrenta contra Dioses y otras critaturas.");
+		System.out.println("1) Pit");
+		System.out.println("2) Kratos");
+		System.out.println("3) Jenofonte");
+		str = JOptionPane.showInputDialog("Escribe la respuesta correcta:");
+		int respuesta10 = Integer.parseInt(str);
+		
+		if (respuesta10 == 3) {
+			System.out.println(" ");
+			System.out.println("¡Enhorabuena has acertado!");
+			score =+ 1;
+		}else {
+			System.out.println(" ");
+			System.out.println("Vaya, lo siento has fallado...");
+			score =- 0.5;
+		}			
 	}
 
 }
