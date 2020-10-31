@@ -74,6 +74,24 @@ public class DavidPadillaTrivial {
 			score =- 0.5;
 		}
 		
+		System.out.println("_______________________________________________________________");		
+		System.out.println("Un espadachín que vive en la ciudad de Hyrule.");
+		System.out.println("1) Bowser");
+		System.out.println("2) Link");
+		System.out.println("3) Kirby");
+		str = JOptionPane.showInputDialog("Escribe la respuesta correcta:");
+		int respuesta3 = Integer.parseInt(str);
+		
+		if (respuesta3 == 2) {
+			System.out.println(" ");
+			System.out.println("¡Enhorabuena has acertado!");
+			score =+ 1;
+		}else {
+			System.out.println(" ");
+			System.out.println("Vaya, lo siento has fallado...");
+			score =- 0.5;
+		}
+		
 	}
 
 }
